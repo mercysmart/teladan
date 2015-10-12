@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta -->
+  <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta name="description" content="Teladan merupakan sebuah situs yang mencatat anak-anak Indonesia yang berpotensi di berbagai bidang.">
+  <meta name="author" content="MercySmart">
   <title>Teladan</title>
-
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet' type='text/css'>
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <!-- Costum Fonts -->
@@ -17,22 +18,32 @@
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <style type="text/css">
-   body {
+   /*body {
   	font-family: 'Schoolbell', cursive;
-  }
+  }*/
   </style>
+  <script>
+  function data(){
+    alert("Teladan's data is still on progress. For more info scroll down :)")
+  }
+  </script>
 </head>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Teladan</a>
-      <!-- <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul> -->
+      <ul class="right hide-on-med-and-down">
+        <li><a href="" title="Data Teladan" onclick="data()">Data</a></li>
+        <li><a href="#partner" title="Partner-partner Teladan" class="page-scroll">Partner</a></li>
+        <li><a href="#quotes" title="Quotes Teladan" class="page-scroll">Quotes</a></li>
+      </ul>
 
-      <!-- <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul> -->
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="" title="Data Teladan">Data</a></li>
+        <li><a href="#partner" title="Partner-partner Teladan" class="page-scroll">Partner</a></li>
+        <li><a href="#quotes" title="Quotes Teladan" class="page-scroll">Quotes</a></li>
+      </ul>
+      <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
+      <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
     </div>
   </nav>
   <div class="section no-pad-bot" id="index-banner">
@@ -43,7 +54,11 @@
         <h5 class="header col s12 light">Sebuah situs yang mencatat anak-anak Indonesia <br>(sampai usia 18 tahun) yang berpotensi di berbagai bidang.</h5>
       </div>
       <div class="row center">
-        <i class="material-icons">keyboard_arrow_down</i>
+        <!-- <i class="material-icons">keyboard_arrow_down</i> -->
+        <i class="fa fa-long-arrow-down fa-4x"></i>
+      </div>
+      <div class="row center">
+        <a href="" id="download-button" onclick="data()" class="btn-large waves-effect waves-light orange">Data Anak Berpotensi</a>
       </div>
       <br><br>
 
@@ -58,7 +73,7 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">school</i></h2>
+            <h2 class="center light-blue-text"><!-- <i class="material-icons">school</i> --><i class="fa fa-graduation-cap"></i></h2>
             <h5 class="center">Pelajar Teladan</h5>
 
             <p class="light"></p>
@@ -67,7 +82,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">star</i></h2>
+            <h2 class="center light-blue-text"><!-- <i class="material-icons">star</i> --><i class="fa fa-flask"></i></h2>
             <h5 class="center">Juara bidang <strong>STEM</strong></h5>
 
             <p class="light"></p>
@@ -76,7 +91,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings_voice</i></h2>
+            <h2 class="center light-blue-text"><!-- <i class="material-icons">settings_voice</i> --><i class="fa fa-music"></i> <i class="fa fa-video-camera"></i></h2>
             <h5 class="center">Digital musik and film</h5>
 
             <p class="light"></p>
@@ -85,7 +100,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">laptop_mac</i></h2>
+            <h2 class="center light-blue-text"><!-- <i class="material-icons">laptop_mac</i> --><i class="fa fa-laptop"></i></h2>
             <h5 class="center">Prestasi coding</h5>
 
             <p class="light"></p>
@@ -94,7 +109,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">accessibility</i></h2>
+            <h2 class="center light-blue-text"><!-- <i class="material-icons">accessibility</i> --><i class="fa fa-male"></i> <i class="fa fa-female"></i></h2>
             <h5 class="center">Prestasi olahraga</h5>
 
             <p class="light"></p>
@@ -103,7 +118,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
+            <h2 class="center light-blue-text"><!-- <i class="material-icons">thumb_up</i> --><i class="fa fa-thumbs-o-up"></i></h2>
             <h5 class="center">Prestasi entrepreneur</h5>
 
             <p class="light"></p>
@@ -114,7 +129,7 @@
     </div>
     <br><br>
 
-    <div class="section">
+    <section id="quotes" class="content-section text-center">
       <div class="row">
         <div class="col s12 m7">
           <div class="card">
@@ -129,7 +144,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </quotes>
       <div class="col s12 m7">
           <div class="card">
             <!-- <div class="card-image">
@@ -147,6 +162,11 @@
     </div>
   </div>
 
+  <section id="partner" class="content-section text-center">
+    <h3>Partner-partner <a href="http://mercysmart.github.io/teladan" title="Teladan">Teladan</a> :</h3>
+    <a href="http://mercysmart.github.io" title="MercySmart"><img src="img/partner/mercysmart.png" alt="MercySmart"><!-- <h3>MercySmart</h3> --></a>
+    <a href="https://code4nation.id" title="Code4Nation"><img src="img/partner/code4nation.png" alt="Code4Nation"><!-- <h3>Code4Nation</h3> --></a>
+  </section>    
   <footer class="page-footer orange">
     <div class="container">
       <div class="row">
@@ -155,10 +175,10 @@
           <p class="grey-text text-lighten-4">Sebuah situs yang mencatat anak-anak Indonesia (sampai usia 18 tahun) yang berpotensi di berbagai bidang</p>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Aplikasi Mobile</h5>
+          <h5 class="white-text">Aplikasi :</h5>
           <ul>
-            <li><a class="white-text" href="#"><img src="img/playstore.png" style="width:150px;height:auto" alt="Teladan on Google Play" title="Teladan on Google Play"></a></li>
-            <li><a class="white-text" href="#"><img src="img/appstore.png" style="width:150px;height:auto" alt="Teladan on App Store" title="Teladan on App Store"></a></li>
+            <li><a class="white-text" href="#" title="Teladan on Google Play"><img src="img/store/playstore.png" style="width:150px;height:auto" alt="Teladan on Google Play" ></a></li>
+            <li><a class="white-text" href="#" title="Teladan on App Store"><img src="img/store/appstore.png" style="width:150px;height:auto" alt="Teladan on App Store" ></a></li>
             <!-- <li\><a class="white-text" href="#">Get it on <a href="#" title="Teladan on App Store">App Store</a></a></li> -->
             <!-- <li><a class="white-text" href="#!">Link 3</a></li>
             <li><a class="white-text" href="#!">Link 4</a></li> -->
@@ -169,17 +189,17 @@
           <ul>
             <li><a class="white-text" href="#!"><i class="fa fa-map-marker"></i> Grand Emerald Apartement, Lt. 1 WJ.</a></li>
             <!-- <li><a class="white-text" href="#!"><i class="fa fa-facebook"></i> Facebook</a></li> -->
-            <li><a class="white-text" href="#!"><i class="fa fa-phone"></i> <a href="#" title="Call Teladan!">+622129614096</a></a></li>
-            <li><a class="white-text" href="#!"><i class="fa fa-twitter"></i> <a href="#" title="Teladan on Twitter">@teladan_id</a></a></li>
-            <li><a class="white-text" href="#!"><i class="fa fa-envelope-o"></i> <a href="mailto:info@teladan.id?subject=Hello!">info@teladan.com</a></a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-phone"></i> <a href="#" title="Call Teladan!" class="light-blue-text">+622129614096</a></a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-twitter"></i> <a href="#" title="Teladan on Twitter" class="light-blue-text">@teladan_id</a></a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-envelope-o"></i> <a href="mailto:info@teladan.id?subject=Hello!" class="light-blue-text">info@teladan.com</a></a></li>
             <!-- <li><a class="white-text" href="#!"><i class="fa fa-envelope-o"></i></a></li> -->
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container col-sm-4">
-      Teladan &copy; 2015. All right reserved.
+      <div class="container">
+      Yayasan MercySmart &copy; 2015. All right reserved.
       </div>
       <!-- <div class="container">
       <div class="col-sm-8">

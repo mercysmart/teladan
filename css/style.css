@@ -1,11 +1,23 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
+/*!
+ * Teladan 1.0 (http://teladan.com)
+ * Copyright 2015 MercySmart.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
+#partner {
+	text-align: center;
+	vertical-align: middle;
+}
+/*#quotes {
+	display: inline-block;
+*/}
 .icon-block {
   padding: 0 15px;
 }
