@@ -6,7 +6,7 @@ Sebuah situs yang mencatat anak-anak Indonesia (sampai usia 18 tahun) yang berpo
 
 ## Kontributor Teladan
 
-* [http://christoga.github.io](Andre Christoga)
+* [Andre Christoga](http://christoga.github.io)
 * Aldio Putra
 
 ## Partner-partner Teladan
