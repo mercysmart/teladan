@@ -4,11 +4,23 @@ Sebuah situs yang mencatat anak-anak Indonesia (sampai usia 18 tahun) yang berpo
 ## Demo
 [Live demo here](http://mercysmart.github.io/teladan)
 
-## Contributors
+## Kontributor Teladan
 
-* Andre Christoga
-* Mercy Sihombing
+* [http://christoga.github.io](Andre Christoga)
+* Aldio Putra
+
+## Partner-partner Teladan
+* [Code4Nation](https://code4nation.id)
+* [MercySmart](http://mercysmart.github.io)
+
+## Data Teladan
+* Pelajar Teladan
+* Juara Bidang STEM
+* Digital musik and film
+* Prestasi coding
+* Prestasi olahraga
+* Prestasi entrepreneur
 
 ## License
 
-Teladan is licensed under MIT, Check out the LICENSE [here.] (https://github.com/mercysmart/teladan/blob/master/LICENSE)
+Teladan is released under MIT.
