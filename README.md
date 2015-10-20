@@ -1,8 +1,6 @@
 # Teladan
 Sebuah situs yang mencatat anak-anak Indonesia (sampai usia 18 tahun) yang berpotensi di berbagai bidang.
-
-## Demo
-[Live demo here](http://mercysmart.github.io/teladan)
+Silakan buka website [disini](http://mercysmart.github.io/teladan)
 
 ## Kontributor Teladan
 
@@ -14,12 +12,12 @@ Sebuah situs yang mencatat anak-anak Indonesia (sampai usia 18 tahun) yang berpo
 * [MercySmart](http://mercysmart.github.io)
 
 ## Data Teladan
-* Pelajar Teladan
-* Juara Bidang STEM
-* Digital musik and film
-* Prestasi coding
-* Prestasi olahraga
-* Prestasi entrepreneur
+* [Pelajar Teladan](http://bit.ly/pelajarteladan)
+* [Juara Bidang STEM](http://bit.ly/prestasistem)
+* [Digital musik and film](http://bit.ly/prestasimusik)
+* [Prestasi coding](http://bit.ly/prestasimusik)
+* [Prestasi olahraga](http://bit.ly/prestasiolahraga)
+* [Prestasi entrepreneur](http://bit.ly/prestasientrepreneur)
 
 ## License
 
