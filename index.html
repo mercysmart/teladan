@@ -12,9 +12,9 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" type="text/css" href="css/scroll.css">
   <!-- Costum Fonts -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <!-- <link href='https://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet' type='text/css'> -->
+  <!-- <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'> -->
   <!-- <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'> -->
   <link href='https://fonts.googleapis.com/css?family=Kreon' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
@@ -46,11 +46,14 @@
   function login(){
     alert("Teladan gonna use GitHub OAuth api, so people can easily login with their github account, but now, the api is still on progress, in the mean time, hang tight!")
   }
+  function apps(){
+    alert("Teladan's apps is still on progress, in the mean time, hang tight!")
+  }
   </script>
 </head>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="http://mercysmart.github.io/teladan" class="brand-logo">Teladan</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="" class="brand-logo">Teladan</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#data" title="Data Teladan" class="page-scroll">Data</a></li>
         <li><a href="#quotes" title="Quotes Teladan" class="page-scroll">Quotes</a></li>
@@ -164,7 +167,7 @@
     </section>
 
   <section id="partner" class="content-section text-center">
-    <h3>Partner-partner <a href="http://mercysmart.github.io/teladan" title="Teladan">Teladan</a> :</h3>
+    <h3>Partner-partner <a href="" title="Teladan">Teladan</a> :</h3>
     <a href="http://mercysmart.github.io" title="MercySmart"><img src="img/partner/mercysmart.png" alt="MercySmart"><!-- <h3>MercySmart</h3> --></a>
     <a href="https://code4nation.id" title="Code4Nation"><img src="img/partner/code4nation.png" alt="Code4Nation" style="width: 350px;"><!-- <h3>Code4Nation</h3> --></a>
   </section>    
@@ -178,8 +181,8 @@
         <div class="col l3 s12">
           <h5 class="white-text">Aplikasi :</h5>
           <ul>
-            <li><a class="white-text" href="#" title="Teladan on Google Play"><img src="img/store/playstore.png" style="width:150px;height:auto" alt="Teladan on Google Play" ></a></li>
-            <li><a class="white-text" href="#" title="Teladan on App Store"><img src="img/store/appstore.png" style="width:150px;height:auto" alt="Teladan on App Store" ></a></li>
+            <li><a class="white-text" onclick="apps()" title="Teladan on Google Play"><img src="img/store/playstore.png" style="width:150px;height:auto" alt="Teladan on Google Play" ></a></li>
+            <li><a class="white-text" onclick="apps()" title="Teladan on App Store"><img src="img/store/appstore.png" style="width:150px;height:auto" alt="Teladan on App Store" ></a></li>
             <!-- <li\><a class="white-text" href="#">Get it on <a href="#" title="Teladan on App Store">App Store</a></a></li> -->
             <!-- <li><a class="white-text" href="#!">Link 3</a></li>
             <li><a class="white-text" href="#!">Link 4</a></li> -->
@@ -188,11 +191,11 @@
         <div class="col l3 s12">
           <h5 class="white-text">Management Office</h5>
           <ul>
-            <li><a class="white-text" href="#!"><i class="fa fa-map-marker"></i> Grand Emerald Apartement, Lt. 1 WJ.</a></li>
+            <li><a class="white-text"><i class="fa fa-map-marker"></i> Grand Emerald Apartement, Lt. 1 WJ.</a></li>
             <!-- <li><a class="white-text" href="#!"><i class="fa fa-facebook"></i> Facebook</a></li> -->
             <li><a class="white-text"><i class="fa fa-phone"></i> <a href="tel:+622129614096" title="Call Teladan!" class="white-text">+622129614096</a></a></li>
-            <li><a class="white-text" href="#!"><i class="fa fa-twitter"></i> <a href="#" title="Teladan on Twitter" class="white-text">@TeladanCo</a></a></li>
-            <li><a class="white-text" href="#!"><i class="fa fa-envelope-o"></i> <a href="mailto:teladanco@gmail.com?subject=Hello!" class="white-text">teladanco@gmail.com</a></a></li>
+            <li><a class="white-text"><i class="fa fa-twitter"></i> <a href="https://twitter.com/teladanco" title="Teladan on Twitter" class="white-text">@TeladanCo</a></a></li>
+            <li><a class="white-text"><i class="fa fa-envelope-o"></i> <a href="mailto:teladanco@gmail.com?subject=Hello!" class="white-text">teladanco@gmail.com</a></a></li>
             <!-- <li><a class="white-text" href="#!"><i class="fa fa-envelope-o"></i></a></li> -->
           </ul>
         </div>
@@ -212,8 +215,8 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="http://mercysmart.github.io/teladan/js/materialize.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
   <!-- Scroll JS -->
