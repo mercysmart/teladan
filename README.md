@@ -1,5 +1,5 @@
 <div align="center">
-![Teladan](img/logo.png)
+ <img src="img/logo.png" alt="Teladan">
 </div>
 # [Teladan](http://mercysmart.github.io/teladan)
 Sebuah situs yang mencatat anak-anak Indonesia (sampai usia 18 tahun) yang berpotensi di berbagai bidang.
