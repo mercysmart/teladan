@@ -1,6 +1,5 @@
-# Teladan
+# [Teladan](http://mercysmart.github.io/teladan)
 Sebuah situs yang mencatat anak-anak Indonesia (sampai usia 18 tahun) yang berpotensi di berbagai bidang.
-Silakan buka website [disini](http://mercysmart.github.io/teladan)
 
 ## Kontributor Teladan
 
